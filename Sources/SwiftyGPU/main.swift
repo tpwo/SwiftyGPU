@@ -26,6 +26,8 @@
 import Foundation
 import IOKit
 
+let kIOAcceleratorClassName = "IOAccelerator"
+
 extension String {
     func leftPadding(toLength targetLength: Int, using character: Character) -> String {
         if count > targetLength {
